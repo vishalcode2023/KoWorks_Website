@@ -1,0 +1,45 @@
+# Robots.txt — Koworks Technologies (https://koworks.in)
+# Updated: 2026-06-01
+
+# ── Google ─────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /auth/
+Crawl-delay: 1
+
+# ── Bing ───────────────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Crawl-delay: 2
+
+# ── All other crawlers ─────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /auth/
+Disallow: /private/
+Crawl-delay: 2
+
+# ── Block aggressive SEO scrapers (they slow down server) ─────
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ── Sitemaps ───────────────────────────────────────────────────
+Sitemap: https://koworks.in/sitemap.xml
+Host: https://koworks.in
