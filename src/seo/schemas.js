@@ -2,7 +2,7 @@
 // KOWORKS — JSON-LD Schema Factories
 // ============================================================
 
-const SITE_URL = "https://koworks.in";
+const SITE_URL = "https://koworks.tech";
 
 export const organizationSchema = () => ({
   "@context": "https://schema.org",
@@ -33,7 +33,7 @@ export const organizationSchema = () => ({
   ],
   sameAs: [
     "https://linkedin.com/company/koworks",
-    "https://instagram.com/koworks.in",
+    "https://instagram.com/koworks.tech",
     "https://github.com/koworks",
   ],
 });
@@ -73,6 +73,72 @@ export const breadcrumbSchema = (items) => ({
     name,
     item: `${SITE_URL}${url}`,
   })),
+});
+
+export const localBusinessSchema = () => ({
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": `${SITE_URL}/#localbusiness`,
+  name: "Koworks",
+  image: `${SITE_URL}/images/koworks-logo.webp`,
+  url: SITE_URL,
+  telephone: "+91-8884804648",
+  email: "hello@koworks.tech",
+  priceRange: "₹₹",
+  currenciesAccepted: "INR",
+  paymentAccepted: "Cash, Bank Transfer, UPI, Razorpay",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Mysore",
+    addressLocality: "Mysore",
+    addressRegion: "Karnataka",
+    postalCode: "570001",
+    addressCountry: "IN",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 12.2958,
+    longitude: 76.6394,
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+  ],
+  areaServed: [
+    { "@type": "City", name: "Mysore" },
+    { "@type": "City", name: "Bangalore" },
+    { "@type": "City", name: "Mangalore" },
+    { "@type": "AdministrativeArea", name: "Karnataka" },
+    { "@type": "Country", name: "India" },
+  ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Web Development Services",
+    itemListElement: [
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "React Web Development" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Next.js Development" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "MERN Stack Development" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Custom Web Application Development" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "E-Commerce Website Development" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "SaaS Product Development" } },
+    ],
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "12",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  sameAs: [
+    "https://linkedin.com/company/koworks",
+    "https://instagram.com/koworks.tech",
+    "https://github.com/koworks",
+  ],
 });
 
 export const articleSchema = ({

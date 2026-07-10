@@ -5,12 +5,11 @@
 export const SITE = {
   name: "Koworks",
   legalName: "Koworks Technologies",
-  url: "https://koworks.in",
-  logo: "https://koworks.in/images/koworks-logo.webp",
-  defaultOgImage: "https://koworks.in/images/og-home.jpg",
-  twitter: "@koworks_in",
-  email: "hello@koworks.in",
-  phone: "+91-XXXXXXXXXX",
+  url: "https://koworks.tech",
+  logo: "https://koworks.tech/images/koworks-logo.webp",
+  defaultOgImage: "https://koworks.tech/images/og-home.jpg",
+  email: "koworks2026@gmail.com",
+  phone: "+91-8884804648",
   address: {
     city: "Mysore",
     state: "Karnataka",
@@ -122,9 +121,9 @@ export const PAGE_SEO = {
     title: "Koworks — #1 Software & Web Development Company in Mysore, Karnataka | Custom Software, SaaS & AI Solutions",
     description:
       "Koworks is Mysore's leading software and web development company. We build custom software, ERP, SaaS platforms, React web apps, mobile apps, and AI automation solutions for startups and enterprises across India. 10+ projects delivered. 4.9★ client rating.",
-    canonical: "https://koworks.in/",
+    canonical: "https://koworks.tech/",
     keywords: [...KEYWORDS.brand, ...KEYWORDS.regional, ...KEYWORDS.webDev, ...KEYWORDS.intent],
-    ogImage: "https://koworks.in/images/og-home.jpg",
+    ogImage: "https://koworks.tech/images/og-home.jpg",
     faqs: [
       {
         q: "What services does Koworks offer?",
@@ -149,7 +148,7 @@ export const PAGE_SEO = {
     title: "About Koworks — Top-Rated Software Development Agency in Mysore, Karnataka | Our Story & Team",
     description:
       "Meet the Koworks team — passionate engineers and designers building world-class software from Mysore, Karnataka. Learn about our mission, values, and what makes us the best software company in Karnataka. Trusted by 10+ clients across India.",
-    canonical: "https://koworks.in/about",
+    canonical: "https://koworks.tech/about",
     keywords: [
       ...KEYWORDS.brand,
       "software agency Karnataka",
@@ -158,14 +157,14 @@ export const PAGE_SEO = {
       "best software team Mysore",
       "tech startup Mysore",
     ],
-    ogImage: "https://koworks.in/images/og-about.jpg",
+    ogImage: "https://koworks.tech/images/og-about.jpg",
   },
 
   contact: {
     title: "Contact Koworks — Hire Software Developers in Mysore | Free Project Estimate",
     description:
       "Get in touch with Koworks for custom software, web design, ERP, SaaS, or AI solutions. Based in Mysore, Karnataka. Free project estimates. Serving clients across India. Reply within 24 hours.",
-    canonical: "https://koworks.in/contact",
+    canonical: "https://koworks.tech/contact",
     keywords: [
       "hire software developers Mysore",
       "contact software company Karnataka",
@@ -174,14 +173,14 @@ export const PAGE_SEO = {
       "hire React developer Mysore",
       "software development consultation",
     ],
-    ogImage: "https://koworks.in/images/og-contact.jpg",
+    ogImage: "https://koworks.tech/images/og-contact.jpg",
   },
 
   portfolio: {
     title: "Portfolio — Software, SaaS & Web Projects by Koworks Mysore | Case Studies",
     description:
       "Explore Koworks' portfolio of custom software, ERP systems, SaaS platforms, mobile apps, and web development projects for clients across Karnataka and India. Real projects. Real results.",
-    canonical: "https://koworks.in/portfolio",
+    canonical: "https://koworks.tech/portfolio",
     keywords: [
       "software development portfolio India",
       "web development projects Karnataka",
@@ -189,7 +188,7 @@ export const PAGE_SEO = {
       "Koworks portfolio",
       "software company projects Mysore",
     ],
-    ogImage: "https://koworks.in/images/og-portfolio.jpg",
+    ogImage: "https://koworks.tech/images/og-portfolio.jpg",
   },
 
   services: {
@@ -197,47 +196,82 @@ export const PAGE_SEO = {
       title: "Services — Custom Software, Web Dev, ERP, AI & Design | Koworks Mysore Karnataka",
       description:
         "Koworks offers end-to-end digital services: web development, custom software, ERP, SaaS, mobile apps, UI/UX design, branding, SEO, digital marketing, and AI solutions for startups and enterprises across India.",
-      canonical: "https://koworks.in/services",
+      canonical: "https://koworks.tech/services",
       keywords: [...KEYWORDS.webDev, ...KEYWORDS.software, ...KEYWORDS.design, ...KEYWORDS.ai],
-      ogImage: "https://koworks.in/images/og-services.jpg",
+      ogImage: "https://koworks.tech/images/og-services.jpg",
     },
 
     webDevelopment: {
-      title: "Web Development Company in Mysore & Bangalore | React, Next.js & MERN Stack — Koworks",
+      title: "Web Development Company in Mysore | React & Next.js",
       description:
-        "Koworks is a top web development company in Mysore & Karnataka. We build fast, scalable websites and web apps using React, Next.js, MERN stack, and TypeScript. Trusted by 10+ startups across India. Get a free quote today.",
-      canonical: "https://koworks.in/services/web-development",
+        "Koworks is a top-rated web development company in Mysore, Karnataka. React, Next.js & MERN stack specialists. 10+ live projects. Transparent pricing from ₹15,000. Free consultation.",
+      canonical: "https://koworks.tech/services/web-development",
+      ogTitle: "Web Development Company in Mysore — Koworks",
+      ogDescription:
+        "Expert React, Next.js & MERN stack web development from Mysore. Serving startups and businesses across Karnataka and India. Transparent pricing. Free quote.",
       keywords: [
-        "web development company Mysore",
-        "React development company Karnataka",
-        "Next.js development services India",
-        "MERN stack developers",
-        "full stack development company",
-        "best web development company in Karnataka",
-        "affordable website development company",
-        "React and Next.js developers India",
-        "hire web developer Mysore",
+        "web development company in Mysore",
+        "website development Mysore",
+        "web design company Mysore",
+        "React development company",
+        "Next.js development",
+        "MERN stack development",
+        "custom software development Mysore",
+        "website development India",
+        "web development company Karnataka",
+        "affordable web development company India",
+        "full stack development Mysore",
+        "hire React developer Mysore",
         "website development services Bangalore",
-        "custom web application development",
+        "custom web application development India",
         "professional website development India",
+        "web app development company Karnataka",
+        "responsive website design India",
+        "Node.js development company India",
+        "TypeScript development company",
+        "SaaS web development India",
       ],
-      ogImage: "https://koworks.in/images/og-service-web.jpg",
+      ogImage: "https://koworks.tech/images/og-service-web.jpg",
       faqs: [
         {
           q: "What web technologies does Koworks specialise in?",
-          a: "Koworks specialises in React, Next.js, Node.js, TypeScript, and the full MERN stack. We build fast, SEO-optimised, and scalable web applications tailored to your business needs.",
-        },
-        {
-          q: "How long does it take to build a website?",
-          a: "A standard business website takes 2–4 weeks. Complex web apps or SaaS platforms typically take 6–16 weeks depending on feature scope.",
-        },
-        {
-          q: "Does Koworks serve clients in Bangalore?",
-          a: "Yes. While headquartered in Mysore, Koworks serves clients across Karnataka including Bangalore, Mangalore, Coorg, and pan-India remotely.",
+          a: "Koworks specialises in React 18, Next.js 14 (App Router), Node.js, TypeScript, and the full MERN stack (MongoDB, Express, React, Node.js). We also work with Vite, TailwindCSS, Prisma, PostgreSQL, and cloud platforms like AWS, GCP, and Vercel — building fast, SEO-optimised, and scalable web applications tailored to each client's needs.",
         },
         {
           q: "How much does web development cost at Koworks?",
-          a: "Business websites start from ₹15,000. E-commerce stores from ₹30,000. Custom web applications from ₹60,000. We provide transparent fixed-price quotes with no hidden fees.",
+          a: "Business websites start from ₹15,000. E-commerce stores from ₹30,000. Custom web applications and SaaS platforms from ₹60,000. All projects come with transparent fixed-price contracts and no hidden fees. We also offer milestone-based payment plans for larger projects.",
+        },
+        {
+          q: "How long does it take to build a website with Koworks?",
+          a: "A standard business website takes 2–4 weeks from kickoff to launch. E-commerce stores take 3–6 weeks. Complex web apps or SaaS platforms typically take 6–16 weeks depending on feature scope, integrations, and design complexity.",
+        },
+        {
+          q: "Does Koworks serve clients outside Mysore?",
+          a: "Yes. While headquartered in Mysore, Koworks serves clients across Karnataka (Bangalore, Mangalore, Coorg, Chikmagalur, Hubli), pan-India, and internationally — all via remote collaboration. We've successfully delivered projects for clients in Delhi, Mumbai, and Hyderabad.",
+        },
+        {
+          q: "What is the difference between a website and a web application?",
+          a: "A website is primarily informational — it presents your brand, services, and content to visitors (e.g., a business site or portfolio). A web application is interactive software that runs in a browser — like a CRM, ERP, SaaS dashboard, or customer portal. Koworks builds both, using the same engineering rigour for either type.",
+        },
+        {
+          q: "Do you provide website maintenance and support after launch?",
+          a: "Yes. All Koworks projects include 3 months of free bug-fix support post-launch. Extended maintenance contracts covering performance monitoring, security patches, feature additions, and hosting management are available on monthly or annual retainers.",
+        },
+        {
+          q: "Can Koworks redesign my existing website?",
+          a: "Absolutely. We regularly take on redesign projects — whether it's a visual refresh, a full migration to React/Next.js, improving Core Web Vitals scores, or rebuilding a legacy PHP/WordPress site with a modern stack. We audit your existing site first to recommend the best approach.",
+        },
+        {
+          q: "Is SEO included in Koworks web development projects?",
+          a: "Yes. Every website Koworks builds ships with technical SEO foundations baked in — semantic HTML5, correct heading hierarchy, meta tags, Open Graph data, JSON-LD schema markup, sitemap.xml, robots.txt, Core Web Vitals optimisation, and mobile-first responsive design.",
+        },
+        {
+          q: "How do I get started with a web development project at Koworks?",
+          a: "Simply reach out via our contact page or email hello@koworks.in with a brief description of what you need. We'll schedule a free 30-minute discovery call within 24 hours, assess your requirements, and send you a detailed proposal with timeline and fixed price — no obligation.",
+        },
+        {
+          q: "Does Koworks build e-commerce websites?",
+          a: "Yes. We build custom React e-commerce storefronts, Shopify integrations, and WooCommerce solutions — all GST-compliant with Razorpay/PayU payment gateways, product management dashboards, and inventory tracking.",
         },
       ],
     },
@@ -246,7 +280,7 @@ export const PAGE_SEO = {
       title: "Custom Software Development Company in Mysore, Karnataka — Koworks | Startups & Enterprises",
       description:
         "Koworks delivers custom software for startups, SMEs, and enterprises across India. From SaaS platforms to enterprise tools — robust, scalable, and affordable software solutions. 10+ projects. 4.9★ rating.",
-      canonical: "https://koworks.in/services/software-development",
+      canonical: "https://koworks.tech/services/software-development",
       keywords: [
         "custom software development company",
         "software development company in Mysore",
@@ -261,7 +295,7 @@ export const PAGE_SEO = {
         "agile software development Mysore",
         "software development services Karnataka",
       ],
-      ogImage: "https://koworks.in/images/og-service-software.jpg",
+      ogImage: "https://koworks.tech/images/og-service-software.jpg",
       faqs: [
         {
           q: "What industries does Koworks build custom software for?",
@@ -286,7 +320,7 @@ export const PAGE_SEO = {
       title: "ERP Development Company in Mysore | Custom ERP Software for Schools, Retail & Manufacturing — Koworks",
       description:
         "Koworks is a trusted ERP development company in Karnataka. Custom ERP for schools, retail, manufacturing, and enterprises — affordable, scalable, and India-ready. GST-compliant. Tally-compatible.",
-      canonical: "https://koworks.in/services/erp-systems",
+      canonical: "https://koworks.tech/services/erp-systems",
       keywords: [
         "ERP development company",
         "custom ERP software company",
@@ -300,7 +334,7 @@ export const PAGE_SEO = {
         "cloud ERP India",
         "affordable ERP software",
       ],
-      ogImage: "https://koworks.in/images/og-service-erp.jpg",
+      ogImage: "https://koworks.tech/images/og-service-erp.jpg",
       faqs: [
         {
           q: "What is included in Koworks' ERP solutions?",
@@ -321,7 +355,7 @@ export const PAGE_SEO = {
       title: "Inventory Management Software for Textile, Retail & Warehouses | Barcode & GST — Koworks India",
       description:
         "Koworks builds inventory management software for textile shops, retail stores, and warehouses across India. Barcode scanning, real-time stock tracking, GST billing, POS, and Tally-compatible exports.",
-      canonical: "https://koworks.in/services/inventory-management",
+      canonical: "https://koworks.tech/services/inventory-management",
       keywords: [
         "inventory management software",
         "inventory software provider India",
@@ -334,7 +368,7 @@ export const PAGE_SEO = {
         "warehouse management software India",
         "Tally-compatible inventory software",
       ],
-      ogImage: "https://koworks.in/images/og-service-inventory.jpg",
+      ogImage: "https://koworks.tech/images/og-service-inventory.jpg",
       faqs: [
         {
           q: "Does Koworks build textile-specific inventory software?",
@@ -351,7 +385,7 @@ export const PAGE_SEO = {
       title: "UI/UX Design Company in Mysore, Karnataka | Figma Design & Prototyping — Koworks",
       description:
         "Koworks is a UI/UX design company in Mysore crafting intuitive, beautiful digital experiences. Figma prototypes, design systems, and pixel-perfect implementation for SaaS, mobile apps, and web platforms.",
-      canonical: "https://koworks.in/services/ui-ux-design",
+      canonical: "https://koworks.tech/services/ui-ux-design",
       keywords: [
         "UI/UX design company",
         "best UI/UX agency India",
@@ -364,7 +398,7 @@ export const PAGE_SEO = {
         "design system development",
         "hire UX designer India",
       ],
-      ogImage: "https://koworks.in/images/og-service-uiux.jpg",
+      ogImage: "https://koworks.tech/images/og-service-uiux.jpg",
       faqs: [
         {
           q: "What UI/UX services does Koworks offer?",
@@ -381,7 +415,7 @@ export const PAGE_SEO = {
       title: "AI & Automation Development Company in India | GPT, LLM & ML Solutions — Koworks",
       description:
         "Koworks builds AI-powered software — GPT integrations, OCR systems, AI chatbots, and workflow automation. Helping Indian startups and enterprises cut costs and accelerate growth with AI and machine learning.",
-      canonical: "https://koworks.in/services/ai-solutions",
+      canonical: "https://koworks.tech/services/ai-solutions",
       keywords: [
         "AI software development company India",
         "AI and automation solutions",
@@ -396,7 +430,7 @@ export const PAGE_SEO = {
         "Claude API integration India",
         "AI workflow automation India",
       ],
-      ogImage: "https://koworks.in/images/og-service-ai.jpg",
+      ogImage: "https://koworks.tech/images/og-service-ai.jpg",
       faqs: [
         {
           q: "What AI integrations can Koworks build?",
@@ -417,7 +451,7 @@ export const PAGE_SEO = {
       title: "SaaS Product Development Company in India | End-to-End SaaS Engineering — Koworks",
       description:
         "End-to-end SaaS product development for Indian startups. Architecture, backend APIs, frontend, auth, subscriptions, and deployment — all handled by Koworks. SaaS MVPs from ₹80,000.",
-      canonical: "https://koworks.in/services/saas-development",
+      canonical: "https://koworks.tech/services/saas-development",
       keywords: [
         "SaaS product development",
         "SaaS development company India",
@@ -430,7 +464,7 @@ export const PAGE_SEO = {
         "multi-tenant SaaS development",
         "SaaS architecture India",
       ],
-      ogImage: "https://koworks.in/images/og-service-saas.jpg",
+      ogImage: "https://koworks.tech/images/og-service-saas.jpg",
       faqs: [
         {
           q: "How much does SaaS development cost at Koworks?",
@@ -447,7 +481,7 @@ export const PAGE_SEO = {
       title: "Mobile App Development Company in Mysore, Karnataka | React Native iOS & Android — Koworks",
       description:
         "Koworks builds cross-platform mobile apps using React Native for iOS and Android. From MVPs to full-featured apps for startups and enterprises across India. Fast, affordable, and scalable.",
-      canonical: "https://koworks.in/services/mobile-app-development",
+      canonical: "https://koworks.tech/services/mobile-app-development",
       keywords: [
         "mobile app development company Mysore",
         "React Native development India",
@@ -459,7 +493,7 @@ export const PAGE_SEO = {
         "Flutter development India",
         "mobile app development Bangalore",
       ],
-      ogImage: "https://koworks.in/images/og-service-mobile.jpg",
+      ogImage: "https://koworks.tech/images/og-service-mobile.jpg",
       faqs: [
         {
           q: "What platforms does Koworks build apps for?",
@@ -476,7 +510,7 @@ export const PAGE_SEO = {
       title: "E-Commerce Development Company in India | React, Shopify & WooCommerce — Koworks",
       description:
         "Custom e-commerce stores for Indian businesses. Shopify development, React storefronts, WooCommerce, and headless commerce solutions. Fast-loading, GST-ready, and conversion-optimised.",
-      canonical: "https://koworks.in/services/ecommerce",
+      canonical: "https://koworks.tech/services/ecommerce",
       keywords: [
         "e-commerce development company India",
         "Shopify development company",
@@ -488,7 +522,7 @@ export const PAGE_SEO = {
         "GST e-commerce India",
         "ecommerce website developers India",
       ],
-      ogImage: "https://koworks.in/images/og-service-ecommerce.jpg",
+      ogImage: "https://koworks.tech/images/og-service-ecommerce.jpg",
       faqs: [
         {
           q: "Does Koworks build Shopify stores?",
@@ -505,7 +539,7 @@ export const PAGE_SEO = {
       title: "SEO Company in Mysore, Karnataka | Technical SEO & Local Search Ranking — Koworks",
       description:
         "Enterprise SEO for businesses in Mysore, Karnataka, and India. Technical SEO, on-page optimisation, local SEO, Core Web Vitals, and content strategy to rank #1 on Google. Proven results.",
-      canonical: "https://koworks.in/services/seo",
+      canonical: "https://koworks.tech/services/seo",
       keywords: [
         "SEO and digital marketing company",
         "SEO company Mysore",
@@ -518,7 +552,7 @@ export const PAGE_SEO = {
         "on-page SEO services India",
         "Google My Business optimisation",
       ],
-      ogImage: "https://koworks.in/images/og-service-seo.jpg",
+      ogImage: "https://koworks.tech/images/og-service-seo.jpg",
       faqs: [
         {
           q: "How long does SEO take to show results?",
@@ -535,7 +569,7 @@ export const PAGE_SEO = {
       title: "Digital Marketing Agency in Mysore, Karnataka | Google Ads, Meta & SEO — Koworks",
       description:
         "Full-funnel digital marketing — SEO, Google Ads, Meta Ads, social media, and content marketing for businesses across Karnataka and India. Data-driven campaigns that deliver measurable ROI.",
-      canonical: "https://koworks.in/services/digital-marketing",
+      canonical: "https://koworks.tech/services/digital-marketing",
       keywords: [
         "digital marketing agency Mysore",
         "social media marketing Karnataka",
@@ -546,7 +580,7 @@ export const PAGE_SEO = {
         "digital marketing services Bangalore",
         "ROI-driven digital marketing",
       ],
-      ogImage: "https://koworks.in/images/og-service-digital.jpg",
+      ogImage: "https://koworks.tech/images/og-service-digital.jpg",
       faqs: [],
     },
 
@@ -554,7 +588,7 @@ export const PAGE_SEO = {
       title: "Branding & Logo Design Company in Mysore | Brand Identity for Startups — Koworks",
       description:
         "Build a memorable brand with Koworks. Logos, brand identities, style guides, and visual systems for startups and businesses across India. Professional. Affordable. Memorable.",
-      canonical: "https://koworks.in/services/branding",
+      canonical: "https://koworks.tech/services/branding",
       keywords: [
         "branding company India",
         "branding agency Mysore",
@@ -565,7 +599,7 @@ export const PAGE_SEO = {
         "visual identity design",
         "logo design Mysore",
       ],
-      ogImage: "https://koworks.in/images/og-service-branding.jpg",
+      ogImage: "https://koworks.tech/images/og-service-branding.jpg",
       faqs: [],
     },
 
@@ -573,7 +607,7 @@ export const PAGE_SEO = {
       title: "Insurance Management Software Development India | Policy, Claims & Agent Portal — Koworks",
       description:
         "Custom insurance management systems — policy tracking, claims, renewals, agent portals, and analytics dashboards for insurance businesses in India. Compliance-ready. Cloud-hosted.",
-      canonical: "https://koworks.in/services/insurance-software",
+      canonical: "https://koworks.tech/services/insurance-software",
       keywords: [
         "insurance software solutions",
         "insurance management software India",
@@ -584,7 +618,7 @@ export const PAGE_SEO = {
         "agent portal software",
         "insurance tech company India",
       ],
-      ogImage: "https://koworks.in/images/og-service-insurance.jpg",
+      ogImage: "https://koworks.tech/images/og-service-insurance.jpg",
       faqs: [
         {
           q: "Does Koworks build insurance management software?",
@@ -603,7 +637,7 @@ export const PAGE_SEO = {
       title: "Software Development Company in Mysore | Best IT Company Mysore — Koworks",
       description:
         "Koworks is Mysore's leading software and web development company. Custom software, ERP, SaaS, mobile apps, and AI solutions for businesses in Mysore, Karnataka. Trusted local IT partner.",
-      canonical: "https://koworks.in/software-company-mysore",
+      canonical: "https://koworks.tech/software-company-mysore",
       keywords: [
         "software development company in Mysore",
         "web development company Mysore",
@@ -615,13 +649,13 @@ export const PAGE_SEO = {
         "software agency Mysore",
         "tech company Mysore Karnataka",
       ],
-      ogImage: "https://koworks.in/images/og-mysore.jpg",
+      ogImage: "https://koworks.tech/images/og-mysore.jpg",
     },
     bangalore: {
       title: "Software Development Company Serving Bangalore | React & SaaS Experts — Koworks",
       description:
         "Koworks builds custom software, SaaS products, and React web apps for startups and businesses in Bangalore, Karnataka. Based in Mysore with full remote delivery. Affordable Bangalore rates.",
-      canonical: "https://koworks.in/software-company-bangalore",
+      canonical: "https://koworks.tech/software-company-bangalore",
       keywords: [
         "software development company Bangalore",
         "React developers Bangalore",
@@ -632,13 +666,13 @@ export const PAGE_SEO = {
         "SaaS development Bangalore",
         "web developers near Bangalore",
       ],
-      ogImage: "https://koworks.in/images/og-bangalore.jpg",
+      ogImage: "https://koworks.tech/images/og-bangalore.jpg",
     },
     karnataka: {
       title: "Best Software Development Company in Karnataka | Web, SaaS & AI — Koworks",
       description:
         "Koworks is among the best software development companies in Karnataka. Custom software, web apps, ERP, SaaS, and mobile apps for businesses across Mysore, Bangalore, Mangalore, and beyond.",
-      canonical: "https://koworks.in/software-development-karnataka",
+      canonical: "https://koworks.tech/software-development-karnataka",
       keywords: [
         "best web development company in Karnataka",
         "software development company Karnataka",
@@ -648,7 +682,7 @@ export const PAGE_SEO = {
         "top software company Karnataka",
         "IT services Karnataka",
       ],
-      ogImage: "https://koworks.in/images/og-karnataka.jpg",
+      ogImage: "https://koworks.tech/images/og-karnataka.jpg",
     },
   },
 };

@@ -48,6 +48,7 @@ const MainRouter = () => {
             </Suspense>
           }
         />
+        {/* <Route path='/web-development' element={<WebDevelopment />} /> */}
       </Routes>
     </>
   );
