@@ -199,7 +199,7 @@ function HeroSection() {
       {/* Hero headline — SEO-optimised H1 */}
       <div className="hero-text-block">
         <h1 className="hero-h1">
-          Custom Software &amp; Web Development Company 
+          Custom Software &amp; Web Development Company
         </h1>
         <p className="hero-sub">
           Koworks builds custom software, SaaS platforms, React web apps, mobile
@@ -1467,7 +1467,7 @@ export default function HomePage() {
         <OurServicesSection />
         <OurWorks />
         <BrandsAndProblems />
-        <OurStory />
+        {/* <OurStory /> */}
         <FAQSection
           faqs={seo.faqs}
           title="Frequently Asked Questions about Koworks"
