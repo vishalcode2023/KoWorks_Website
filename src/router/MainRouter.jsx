@@ -14,7 +14,9 @@ import WebDevelopment from "../services/WebDevelopment";
 
 // Lazy-loaded heavy pages
 const ProjectDetail = lazy(() => import("../websitepages/ProjectDetail"));
-const SoftwareCompanyMysore = lazy(() => import("../locations/SoftwareCompanyMysore"));
+const SoftwareCompanyMysore = lazy(
+  () => import("../locations/SoftwareCompanyMysore"),
+);
 
 const MainRouter = () => {
   return (
@@ -27,7 +29,22 @@ const MainRouter = () => {
         <Route
           path="/works/:slug"
           element={
-            <Suspense fallback={<div style={{ minHeight: "60vh", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "sans-serif", color: "#aaa" }}>Loading…</div>}>
+            <Suspense
+              fallback={
+                <div
+                  style={{
+                    minHeight: "60vh",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontFamily: "sans-serif",
+                    color: "#aaa",
+                  }}
+                >
+                  Loading…
+                </div>
+              }
+            >
               <ProjectDetail />
             </Suspense>
           }
