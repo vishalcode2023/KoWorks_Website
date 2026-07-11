@@ -331,7 +331,7 @@ const services = [
 
 const company = [
   { label: "Our Works", href: "/works" },
-  { label: "Services" , href: "/services" },
+  { label: "Services", href: "/services" },
   { label: "About Us", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
@@ -530,9 +530,21 @@ export default function Footer() {
           </div>
 
           <div className="footer-socials">
-            {["in", "𝕏"].map((s) => (
-              <a key={s} href="#" className="footer-social">
-                {s}
+            {[
+              { label: "in", href: "https://www.linkedin.com/company/koworks-26/" },
+              // { label: "IG", href: "https://instagram.com/koworks.tech" },
+            ].map(({ label, href }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-social"
+                aria-label={
+                  label === "in" ? "Koworks on LinkedIn" : "Koworks on X"
+                }
+              >
+                {label}
               </a>
             ))}
           </div>

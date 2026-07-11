@@ -339,8 +339,8 @@ export default function TermsOfService() {
               We'll give you a straight answer within 24 hours.
             </p>
           </div>
-          <a href="mailto:vishalcode2023@gmail.com" className="legal-contact-btn">
-            vishalcode2023@gmail.com →
+          <a href="mailto:koworks2026@gmail.com" className="legal-contact-btn">
+            koworks2026@gmail.com →
           </a>
         </div>
       </div>
