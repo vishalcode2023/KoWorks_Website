@@ -445,9 +445,9 @@ const reachCards = [
     iconBg: "rgba(240,78,26,0.08)",
     accent: "#F04E1A",
     label: "Email",
-    value: "koworks2026@gmail.com",
+    value: "info@koworks.tech",
     sub: "We reply within 24 hours",
-    href: "mailto:koworks2026@gmail.com",
+    href: "mailto:info@koworks.tech",
   },
   {
     icon: "📱",
@@ -456,7 +456,7 @@ const reachCards = [
     label: "WhatsApp",
     value: "+91 88848 04648",
     sub: "Quick replies, Mon–Sat",
-    href: "https://wa.me/9188848 04648",
+    href: "https://wa.me/918884804648",
   },
   {
     icon: "📍",

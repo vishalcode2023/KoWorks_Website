@@ -8,7 +8,7 @@ export const SITE = {
   url: "https://koworks.tech",
   logo: "https://koworks.tech/images/koworks-logo.webp",
   defaultOgImage: "https://koworks.tech/images/og-home.jpg",
-  email: "koworks2026@gmail.com",
+  email: "info@koworks.tech",
   phone: "+91-8884804648",
   address: {
     city: "Mysore",

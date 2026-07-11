@@ -503,8 +503,8 @@ export default function Footer() {
               {
                 icon: "✉",
                 label: "Email",
-                value: "koworks2026@gmail.com",
-                href: "mailto:koworks2026@gmail.com",
+                value: "info@koworks.tech",
+                href: "mailto:info@koworks.tech",
               },
               {
                 icon: "📱",
