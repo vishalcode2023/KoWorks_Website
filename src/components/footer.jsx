@@ -596,7 +596,7 @@ export default function Footer() {
       </div>
 
       {/* ── BOTTOM BAR ── */}
-      {/* <div className="footer-bottom">
+      <div className="footer-bottom">
         <div
           style={{
             display: "flex",
@@ -623,7 +623,7 @@ export default function Footer() {
             <span className="footer-status-text">Accepting clients</span>
           </div>
         </div>
-      </div> */}
+      </div>
     </footer>
   );
 }
