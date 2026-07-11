@@ -1,184 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- ── Main pages ──────────────────────────────────── -->
   <url>
-    <loc>https://koworks.in/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://koworks.tech/</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://koworks.in/about</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://koworks.tech/about</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://koworks.in/contact</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://koworks.tech/contact</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://koworks.in/portfolio</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://koworks.tech/works</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://koworks.in/testimonials</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/blog</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- ── Services hub ──────────────────────────────────── -->
-  <url>
-    <loc>https://koworks.in/services</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://koworks.tech/services</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
-
-  <!-- ── Service pages (HIGH PRIORITY) ─────────────────── -->
-  <url>
-    <loc>https://koworks.in/services/web-development</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
+   <url>
+    <loc>https://www.koworks.tech/works/unity-school-portal</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://koworks.in/services/software-development</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.koworks.tech/works/habbis-inventory</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://koworks.in/services/saas-development</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.koworks.tech/works/envirosafetyglass</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://koworks.in/services/mobile-app-development</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.koworks.tech/works/insurance-management</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
-  <url>
-    <loc>https://koworks.in/services/erp-systems</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/ai-solutions</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/inventory-management</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/ui-ux-design</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/ecommerce</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/seo</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/digital-marketing</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/branding</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/services/insurance-software</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
-  </url>
-
-  <!-- ── Location SEO pages (HIGH VALUE) ───────────────── -->
-  <url>
-    <loc>https://koworks.in/software-company-mysore</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/software-company-bangalore</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/software-development-karnataka</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/web-development-mysore</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/web-development-bangalore</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/web-development-mangalore</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.78</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/saas-development-india</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://koworks.in/mobile-app-development-mysore</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
+   <url>
+    <loc>https://www.koworks.tech/works/mysore-finest-homestays</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url> 
 </urlset>
