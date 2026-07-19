@@ -1467,7 +1467,7 @@ export default function HomePage() {
         <OurServicesSection />
         <OurWorks />
         <BrandsAndProblems />
-        {/* <OurStory /> */}
+        <OurStory />
         <FAQSection
           faqs={seo.faqs}
           title="Frequently Asked Questions about Koworks"
